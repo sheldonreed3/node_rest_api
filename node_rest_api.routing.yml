@@ -1,0 +1,7 @@
+node_rest_api.node_endpoint:
+  path: /node-rest-api
+  defaults:
+    _controller: '\Drupal\node_rest_api\Controller\NodeRestAPI::get'
+  methods:  [POST,GET]
+  requirements:
+    _permission: TRUE

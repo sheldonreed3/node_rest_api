@@ -1,0 +1,6 @@
+name: Node Export API
+type: module
+description: 'Provide a fully customizable REST endpoint for nodes.'
+core: 8.x
+version: VERSION
+package: 'ASUO'
